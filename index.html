@@ -7,11 +7,53 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<button class="menu-button" id="menu-button" aria-label="Toggle menu">&#9776;</button>
+
+<nav class="sidebar">
+    <a href="#top" class="sidebar-title" id="sidebar-title">
+        <span class="program-name">Computer Science Magnet Program</span>
+        <span class="school-name">Freehold High School</span>
+    </a>
+
+    <div class="nav-group">
+        <a href="#coursesOffered" class="nav-main">Courses in the Program</a>
+        <div class="submenu">
+            <a href="#APCSP">AP Computer Science Principles</a>
+            <a href="#APCSA">AP Computer Science A</a>
+            <a href="#DSA">Honors Data Structures and Algorithms</a>
+            <a href="#capstone">Honors Computer Science Senior Capstone: Web, Data, and AI</a>
+            <a href="#discrete">Honors Discrete Math and Cybersecurity</a>
+        </div>
+    </div>
+
+    <div class="nav-group">
+        <a href="#clubsOffered" class="nav-main">Extracurricular Opportunities</a>
+        <div class="submenu">
+            <a href="#robotics">Robotics</a>
+            <a href="#cybersecurity">Cybersecurity</a>
+            <a href="#csLeague">Computer Science League</a>
+            <a href="#mentorship">Computing Inspiration &amp; Mentorship Association</a>
+        </div>
+    </div>
+
+    <div class="nav-group">
+        <a href="#colleges" class="nav-main">Where our students have gone</a>
+    </div>
+</nav>
+
 <main id="top">
     <h1>Computer Science Magnet Program</h1>
     <p>The Computer Science Magnet Program is a rigorous four-year course of study designed for students who have an interest in computer science, technology, engineering, data, cybersecurity, and emerging fields such as artificial intelligence. The program provides students with the opportunity to develop a strong foundation in computer science while applying computational thinking, programming, mathematics, and problem-solving skills to authentic and increasingly complex challenges.</p>
     <p>The goal of the program is to prepare students for continued study and success in computer science and related STEM fields while developing the technical skills, creativity, collaboration, communication, and adaptability needed to thrive in a rapidly changing technological landscape. Students learn not only how to write code, but also how to design solutions, analyze data, develop algorithms, understand computing systems, consider the ethical implications of technology, and apply their knowledge to real-world problems.</p>
     <p>Students take a dedicated computer science course each year, with a progression that builds from foundational principles and programming to advanced computer science concepts, data structures and algorithms, cybersecurity, web development, discrete mathematics, artificial intelligence, and independent application of these skills.</p>
+
+    <div class="carousel">
+        <button class="arrow left" id="prev" aria-label="Previous image">&larr;</button>
+        <img class="slide active" src="https://i.ytimg.com/vi/CxGSnA-RTsA/hqdefault.jpg" alt="Computer science graphic">
+        <img class="slide" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC419YNLNoMlVD9UEzQbpVPLFnxwy7xSdbrMFJ4holrAcQeIO_OUa7HCfD&s=10" alt="Circuit globe graphic">
+        <img class="slide" src="https://wp-media.petersons.com/blog/wp-content/uploads/2018/01/26100309/blur-close-up-code-computer-546819.jpg" alt="Code on a computer screen">
+        <button class="arrow right" id="next" aria-label="Next image">&rarr;</button>
+    </div>
 
     <section id="coursesOffered">
         <h2>Courses Offered in the Program</h2>
@@ -20,7 +62,7 @@
         <div class="course" id="APCSP">
             <div class="course-header">
                 <h3 class="course-name"><a href="https://docs.google.com/document/d/1fe8WqC-8ANao3NeNtd517elGpjtQd-Mb7myZg2J4xYY/edit" target="_blank" rel="noopener noreferrer">AP Computer Science Principles</a></h3>
-                <a class="ap-badge" href="https://apstudents.collegeboard.org/courses/ap-computer-science-principles" target="_blank" rel="noopener noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10" alt="AP Badge">
+                <a class="ap-badge" href="https://apstudents.collegeboard.org/courses/ap-computer-science-a" target="_blank" rel="noopener noreferrer"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5O3sc1bqUAe1XG8LBYb8_gLjGo7YBRGk4uCpZYdX8fg&s=10" alt="AP Badge">
                 </a>
             </div>
             <p>Freshman students begin with AP Computer Science Principles, which introduces the foundational ideas of computer science and computational thinking. Students explore programming, algorithms, data, the internet, cybersecurity, computing innovations, and the impact of technology on individuals and society. Through hands-on projects, students learn to develop computational solutions while building an understanding of the broader field of computer science.</p>
